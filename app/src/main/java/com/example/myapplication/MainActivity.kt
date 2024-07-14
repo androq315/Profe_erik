@@ -32,7 +32,7 @@ class MainActivity : ComponentActivity() {
 }
 
 fun calculateArea(length: Double, width: Double?): Double {
-    val defaultWidth = 10.0 // Valor predeterminado para el ancho
+    val defaultWidth = 10.0 
 
 
     val finalWidth = width ?: defaultWidth
