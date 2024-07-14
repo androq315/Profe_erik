@@ -49,9 +49,8 @@ class MainActivity : ComponentActivity() {
 }
 
 fun calculateArea(length: Double, width: Double?): Double {
-    val defaultWidth = 10.0 // Valor predeterminado para el ancho
+    val defaultWidth = 10.0 
 
-    // Usar el operador Elvis para proporcionar un valor predeterminado si el ancho es nulo
     val finalWidth = width ?: defaultWidth
 
     return length * finalWidth
